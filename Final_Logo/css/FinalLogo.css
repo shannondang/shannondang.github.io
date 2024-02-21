@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+html body, .jumbotron {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f9f6ee;
+}
+
+.navbar {
+    border-bottom:  rgb(96,0,0) 1px solid ;
+}
+
+.nav-bar-color {
+    background-color: #f9f6ee !important;
+}
+
+.navbar-brand {
+    color:  rgb(96,0,0)!important;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: rgb(96,0,0) ;
+}
+
+h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.424em;
+    font-weight: 700;
+}
+
+ h4{
+    font-size: 1.266em;
+ }
+
+.footer-sd {
+    text-align: center;
+    border-top: rgb(96,0,0) 1px solid;
+}
+
+a {
+    color:  rgb(96,0,0);
+
+}
+
+a:hover {
+    color: rgb(182, 70, 95);
+}
+
