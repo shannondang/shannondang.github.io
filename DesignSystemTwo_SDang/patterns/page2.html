@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Signature's Design System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!--tenali font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+
+  <!--rufina font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&family=Tenali+Ramakrishna&display=swap"
+    rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="../logoimg/favicon_io copy/favicon.ico" />
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="d-flex flex-nowrap">
+
+    <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3 bg-white" style="width: 200px;">
+
+
+      <a href="../index.html"
+        class="d-flex align-items-center text-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+
+        <div class="container">
+          <img src="../logoimg/100w/logo.png" alt="logo">
+        </div>
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+          </button>
+          <div class="collapse" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../foundation/type.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Typography</a></li>
+              <li><a href="../foundation/color.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
+              <li><a href="../foundation/logo.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+            Components
+          </button>
+          <div class="collapse" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../components/navbar.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Navbar</a></li>
+              <li><a href="../components/button.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Button</a></li>
+              <li><a href="../components/card.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Card</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="true">
+            Page Patterns
+          </button>
+          <div class="collapse show" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+              <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Work</a></li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid overflow-auto">
+      <div class="row p-5">
+        <div id="content">
+          <h2>Work / Project Page</h2>
+          <hr>
+          <ul class="nav nav-tabs nav-pills nav-justified border-0" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#desktop-design">Desktop Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#desktop-grid">Desktop Grid</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tablet-design">Tablet Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#tablet-grid">Tablet Grid</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#mobile-design">Mobile Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#mobile-grid">Mobile Grid</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="desktop-design" class="container tab-pane active">
+              <br />
+              <p>Width: 1440px</p>
+              <img src="../img/web_pro.png" alt="homepage desktop design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+            <div id="desktop-grid" class="container tab-pane fade">
+              <br />
+              <p>Width: 1440px</p>
+              <img src="../img/web_pro_grid.png" alt="homepage desktop grid design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+            <div id="tablet-design" class="container tab-pane fade">
+              <br />
+              <p>Width: 1024px</p>
+              <img src="../img/tab_pro.png" alt="homepage tablet design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+            <div id="tablet-grid" class="container tab-pane fade">
+              <br />
+              <p>Width: 1024px</p>
+              <img src="../img/tab_pro_grid.png" alt="homepage tablet grid design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+            <div id="mobile-design" class="container tab-pane fade">
+              <br />
+              <p>Width: 390px</p>
+              <img src="../img/phone_pro.png" alt="homepage mobile design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+            <div id="mobile-grid" class="container tab-pane fade">
+              <br />
+              <p>Width: 390px</p>
+              <img src="../img/phone_pro_grid.png" alt="homepage mobile grid design"
+                class="mt-4 img-fluid border rounded mx-auto d-block" />
+            </div>
+          </div>
+        </div>
+        <!-- filled button -->
+        <!-- row 1 -->
+        <div class="row">
+          <div class="col-12 mb-3"></div>
+        </div>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/sidebars.js"></script>
+  <script src="../js/prism.js"></script>
+</body>
+
+</html>
